@@ -9,3 +9,6 @@ read -p "Enter third input :" thirdInput
 result=$(( firstInput+$secondInput*$thirdInput))
 echo "Result:" $result
 
+resultone=$(( thirdInput+$firstInput*$secondInput))
+echo "Result:" $resultone
+
