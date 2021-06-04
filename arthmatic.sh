@@ -28,6 +28,7 @@ do
   array[index]=${#arithmaticOperation[result$((index+1))]}
 done
 echo "${array[@]}"
+
 function decendingOrdersort()
 {
 for((index=0; index<${#array[@]}; index ++ ))
@@ -45,5 +46,3 @@ done
 echo "To decending Order"${array[@]}
 }
  decending Order"${array[@]}
-
-
