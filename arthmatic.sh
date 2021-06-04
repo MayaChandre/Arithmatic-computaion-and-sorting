@@ -15,4 +15,11 @@ echo "Result:" $resultone
 resulttwo=$(( thirdInput+$firstInput*$secondInput))
 echo "Result:" $resulttwo
 
+resultthree=$(( firstInput+$secondInput*$thirdInput))
+echo "Result:" $resultthree
+
+echo $result[@]}
+echo $resultone[@]}
+echo $resultTwo[@]}
+echo $resultThree[@]}
 
