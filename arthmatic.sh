@@ -12,3 +12,4 @@ echo "Result:" $result
 resultone=$(( thirdInput+$firstInput*$secondInput))
 echo "Result:" $resultone
 
+
