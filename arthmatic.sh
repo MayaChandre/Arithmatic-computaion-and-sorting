@@ -47,3 +47,27 @@ done
 echo "To decending Order"${array[@]}
 }
  decending Order"${array[@]}
+function ascendingOrdersort()
+{
+for((index=0; index<${#array[@]}; index ++ ))
+do
+for((indexOne=0; indexone<${#array[@]}-1; index ++ ))
+do
+if(( $(($array[indexOne+1]} > $array[indexOne]}
+then
+temp=${array[indexOne]}
+array[indexOne]=${array[indexOne+1]}
+array[indexOne+1]=$temp
+fi
+done
+done
+echo "To decending Order"${array[@]}
+}
+ decending Order"${array[@]}
+fi
+done
+done
+echo "To data ascending order:"${array[@]}
+}
+ ascendingordersort ${array[@]}
+
